@@ -14,7 +14,7 @@ function connectivityCards() {
 export function ncrMonarchPage() {
   return `${nav()}
   <section class="project-hero">
-    <div class="project-hero-bg"><img src="images/ncr-monarch.png" alt="NCR Monarch 2 and 3 BHK"></div>
+    <div class="project-hero-bg"><img src="/ncr-monarch.png" alt="NCR Monarch 2 and 3 BHK"></div>
     <div class="project-hero-overlay"></div>
     <div class="project-hero-content">
       <div class="floating-badge" style="position:absolute;right:10%;top:30%"><span class="big" style="font-size:1.5rem">READY</span><span class="small">TO MOVE</span></div>
@@ -81,7 +81,7 @@ export function ncrMonarchPage() {
           <h2 class="reveal" style="font-size:clamp(2rem,4vw,3rem);font-weight:900;line-height:.9;margin:16px 0 32px">Well <span class="accent">connected</span></h2>
           <div class="reveal">${connectivityCards()}</div>
         </div>
-        <div class="reveal" style="border-radius:16px;overflow:hidden;aspect-ratio:1;"><img src="images/amenities.png" alt="Amenities" class="img-hover" style="height:100%"></div>
+        <div class="reveal" style="border-radius:16px;overflow:hidden;aspect-ratio:1;"><img src="/amenities.png" alt="Amenities" class="img-hover" style="height:100%"></div>
       </div>
     </div>
   </section>
@@ -109,7 +109,7 @@ export function ncrMonarchPage() {
 export function futureEstatesPage() {
   return `${nav()}
   <section class="project-hero">
-    <div class="project-hero-bg"><img src="images/future-estates.png" alt="Future Estates 2 BHK Zen Homes"></div>
+    <div class="project-hero-bg"><img src="/future-estates.png" alt="Future Estates 2 BHK Zen Homes"></div>
     <div class="project-hero-overlay"></div>
     <div class="project-hero-content">
       <div class="floating-badge" style="position:absolute;right:10%;top:30%;background:var(--green);color:#fff"><span class="big" style="font-size:1.3rem">NEW</span><span class="small">LAUNCH</span></div>
@@ -171,7 +171,7 @@ export function futureEstatesPage() {
           <h2 class="reveal" style="font-size:clamp(2rem,4vw,3rem);font-weight:900;line-height:.9;margin:16px 0 32px">Well <span class="accent">connected</span></h2>
           <div class="reveal">${connectivityCards()}</div>
         </div>
-        <div class="reveal" style="border-radius:16px;overflow:hidden;aspect-ratio:1"><img src="images/amenities.png" alt="Club Zenesis" class="img-hover" style="height:100%"></div>
+        <div class="reveal" style="border-radius:16px;overflow:hidden;aspect-ratio:1"><img src="/amenities.png" alt="Club Zenesis" class="img-hover" style="height:100%"></div>
       </div>
     </div>
   </section>
